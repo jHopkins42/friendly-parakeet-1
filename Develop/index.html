@@ -13,6 +13,19 @@
         <h1>Password Generator</h1>
       </header>
       <div class="card">
+        <form class="box">
+        
+        <label for="complexity">Do you want a simple password? (yes/no)</label>
+        <!-- <type="text" id="complexity" name="complexity"> -->
+
+        <select name="complexity" id="complexity">
+          <option value="yes">Yes</option>
+          <option value="no">No</option>  
+        </select>
+
+        </form> 
+        <pre id="log"></pre>
+        
         <div class="card-header">
           <h2>Generate a Password</h2>
         </div>
@@ -22,10 +35,12 @@
             id="password"
             placeholder="Your Secure Password"
             aria-label="Generated Password"
-          ></textarea>
+          >
+          </textarea>
         </div>
         <div class="card-footer">
           <button id="generate" class="btn">Generate Password</button>
+          
         </div>
       </div>
     </div>
