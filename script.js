@@ -92,8 +92,8 @@ generateBtn.addEventListener("click", writePassword); {
 */
 
 
-function writePassword (answerLength) {
-  console.log (answerLength)
+function writePassword(answerLength) {
+  console.log(answerLength)
   var returnedPassword = "Your random Password is ";
   for (let i = 0; i < answerLength; i++) {
     //math
