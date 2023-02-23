@@ -9,6 +9,7 @@
   padding: 5;
 }
 
+
 body {
   font-family: sans-serif;
   background-color: #f9fbfd;
@@ -37,6 +38,11 @@ header {
   padding: 20px; 
   margin: 20 auto;
   max-width: 800px;
+}
+.photo_txt {
+  text-align: justify;
+  border: 2pt solid;
+  border-radius: 3px;
 }
 
 .card {

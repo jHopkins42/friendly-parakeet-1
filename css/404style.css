@@ -1,0 +1,14 @@
+.photo_txt {
+    text-align: justify;
+    border: 2pt solid;
+    border-radius: 3px;
+  }
+
+.block_photo {
+    background-color: antiquewhite;
+    box-sizing: border-box;
+    width: 80%;
+    border: solid black 3px;
+    padding: 5px;
+    border-radius: 3%;
+}

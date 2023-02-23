@@ -5,3 +5,6 @@ A random Password Generator capable of using user inputs to randomly select a si
 
 Please note: if you select a simple password, it will return only enough characters to equal the length the
 user has requested.  If you select a complex password, it will double that length.
+
+**update:**
+Attempting to improve the functionality, so that it automatically displays the password inside a text box instead of an alert box.
