@@ -37,7 +37,7 @@ function writePassword(answerLength) {
 }
 
 
-function generatePassword (){
+function generatePassword(){
   console.log ("click");
 
   var answerUpper = window.confirm ("Include upper case?")
